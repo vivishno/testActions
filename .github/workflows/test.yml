@@ -10,7 +10,7 @@ jobs:
   train:
     runs-on: ubuntu-latest
     steps:
-    # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
+    # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access  it
     - name: Check Out Repository
       id: checkout_repository
       uses: actions/checkout@v2
@@ -23,4 +23,4 @@ jobs:
           azure_credentials: ${{ secrets.AZURE_CREDENTIALS }}
           armtemplate_file: "deploy.json"
           armtemplateparams_file: "deploy.params.json"
-          resource_group: "new"
+          resource_group: "Test1"
