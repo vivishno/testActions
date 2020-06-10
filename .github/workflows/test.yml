@@ -23,4 +23,4 @@ jobs:
           azure_credentials: ${{ secrets.AZURE_CREDENTIALS }}
           armtemplate_file: "deploy.json"
           armtemplateparams_file: "deploy.params.json"
-          resource_group: "Test1"
+          resource_group: "new"
